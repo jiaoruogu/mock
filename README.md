@@ -3,7 +3,7 @@
 
 首先需要在项目中安装express 和 nodemon
 ```javascript
-npm install express nodemon --save
+npm install express nodemon --save-dev
 ```
 
 nodemon是一个检测服务端文件修改自动重启生效的包
@@ -12,7 +12,7 @@ nodemon是一个检测服务端文件修改自动重启生效的包
 
 在package.json的script标签下加一个"mock": "nodemon src/mock/app.js"命令
 
-在vue.config.js中 的DevServer选项里添加
+在vue.config.js中 的devServer选项里添加
 ```javascript
 devServer: {
     proxy: {
